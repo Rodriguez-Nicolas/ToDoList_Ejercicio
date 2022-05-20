@@ -1,0 +1,39 @@
+h1,
+h2 {
+  font-family: lato;
+}
+.contenedor {
+  padding: 5px;
+  background-color: #e8f9fd;
+  border-color: black;
+}
+.tarea {
+  background-color: #79dae8;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  border-color: black;
+  border-width: 10px;
+}
+.boton {
+  background-color: #2155cd;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+#nuevaTarea {
+  border-radius: 5px;
+}
+#entrada {
+  border-color: black;
+  border-width: 10px;
+}
+
+.iluminado {
+  box-shadow: inset 0 0 100px #0aa1dd;
+}
+.nuevaTarea {
+  border-radius: 25%;
+  width: 200px;
+  height: 25px;  
+}
