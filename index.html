@@ -1,27 +1,41 @@
-<div class="contenedor">
-  <div id="entrada">
-    <label for="tarea">Tarea Nueva</label>
-    <input class="nuevaTarea" id="nuevaTarea" type="text" />
-    <button id="agregar" class="boton">Agregar</button>
-    <button id="buscar" class="boton">Buscar</button>
-  </div>
-  <div>
-    <label for="ordenar">Orden:</label>
-    <select name="ordenar" id="ordenar" class="boton">
-      <option value="ascendente">ascendente</option>
-      <option value="descendente">descendente</option>
-    </select>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/index.js"></script>
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div id="entrada">
+        <label for="tarea">Tarea Nueva</label>
+        <input class="nuevaTarea" id="nuevaTarea" type="text" />
+        <button id="agregar" class="boton">Agregar</button>
+        <button id="buscar" class="boton">Buscar</button>
+      </div>
+      <div>
+        <label for="ordenar">Orden:</label>
+        <select name="ordenar" id="ordenar" class="boton">
+          <option value="ascendente">ascendente</option>
+          <option value="descendente">descendente</option>
+        </select>
+      </div>
 
-  <div id="listaDeTareas">
-    <!--
-    <div id="1" class="tarea">
-      Tarea 1
-      <button id="borrar">Borrar</button>
+      <div id="listaDeTareas">
+        <!--
+  <div id="1" class="tarea">
+    Tarea 1
+    <button id="borrar">Borrar</button>
+  </div>
+  <div id="2" class="tarea">
+    Tarea 2
+    <button id="borrar">Borrar</button>
+  </div>
+-->
+      </div>
     </div>
-    <div id="2" class="tarea">
-      Tarea 2
-      <button id="borrar">Borrar</button>
-    </div>
-  --></div>
-</div>
+  </body>
+</html>

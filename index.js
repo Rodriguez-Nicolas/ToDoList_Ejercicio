@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
-
 //Array tareas
 const tareas = [
   { nombre: 'barrer', prioridad: '1' },
@@ -36,16 +33,13 @@ function Ordenar() {
           arreglo[j + 1] = aux;
         }
         //console.log('descendente');
-
       }
     }
   }
   DibujarLista();
 }
 
-function Buscar(){
-  
-}
+function Buscar() {}
 
 function DibujarLista() {
   while (lista.hasChildNodes()) lista.removeChild(lista.firstChild);
